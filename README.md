@@ -20,4 +20,4 @@ This .NET Selenium app automates the process of applying for jobs on LinkedIn. I
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/LinkedInJobAutomation.git
+   git clone https://github.com/dharma-dx/LinkedInJobAutomation.git
