@@ -1,3 +1,4 @@
+﻿
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -19,8 +20,8 @@ class Program
 
             // Find the username and password fields and enter your credentials
             // Retrieve credentials from environment variables
-            string username = "";
-            string password = "";
+            string username = "ranjith1901@gmail.com";
+            string password = "Robo1901@";
 
             // Find the username and password fields and enter your credentials
             driver.FindElement(By.Id("username")).SendKeys(username);
@@ -85,7 +86,7 @@ class Program
                                 try
                                 {
                                     WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
-                                        button = driver.FindElement(By.XPath($"//button[.//span[text()='{buttonText}']]"));
+                                    button = driver.FindElement(By.XPath($"//button[.//span[text()='{buttonText}']]"));
                                     if (button != null && button.Displayed)
                                     {
                                         button.Click();
@@ -220,4 +221,3 @@ class Program
         }
     }
 }
-
